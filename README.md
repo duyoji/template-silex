@@ -15,6 +15,9 @@
 ## phpunit
 - ./vendor/bin/phpunit tests/Test/AlertTest.php
 
+## phpunit (use DataBase)
+- ./vendor/bin/phpunit tests/Test/DatabaseTest.php
+
 ## doctrine
 
 ### set DB config(MySQL)
