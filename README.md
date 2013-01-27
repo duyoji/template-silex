@@ -9,6 +9,9 @@
 ## composer install
 - ./composer.phar install
 
+**when finish this command, added vendor dirctory**
+
+
 ## phpunit
 - ./vendor/bin/phpunit tests/Test/AlertTest.php
 
