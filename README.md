@@ -31,7 +31,7 @@ set your DB infomation in config/DB.php
 
 when set above value, run following comman
 
-- ./vendor/bin/doctrine orm:convert-mapping --namespace="Model\\" --from-database yml ./config/yaml 
+- ./vendor/bin/doctrine orm:convert-mapping --namespace="Model\\\\" --from-database yml ./config/yaml 
 - ./vendor/bin/doctrine orm:generate-entities ./libs/
 - ./vendor/bin/doctrine orm:validate-schema
 
