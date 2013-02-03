@@ -30,7 +30,7 @@ set your DB infomation in config/DB.php
 - 'user'     => 'user_name'
 - 'password' => 'db_password'
 - 'dbname'   => 'db_name'
-- 'path'     => '127.0.0.1' // set your host
+- 'host'     => '127.0.0.1' // set your host
 
 when set above value, run following comman
 
