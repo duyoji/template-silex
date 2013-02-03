@@ -12,7 +12,7 @@ $conn = array(
 	'user'     => 'user_name',
 	'password' => 'db_password',
 	'dbname'   => 'db_name',
-	'path'     => '127.0.0.1'
+	'host'     => '127.0.0.1'
 );
 
 $config = Setup::createYAMLMetadataConfiguration($paths, $isDevMode);

@@ -40,7 +40,7 @@ when set above value, run following comman
 
 **if you have eror that display [Database], run following command**
 
-- ./vendor/bin/doctrine help  orm:schema-tool:update --force
-- ./vendor/bin/doctrine help  orm:schema-tool:update --dump-sql
+- ./vendor/bin/doctrine orm:schema-tool:update --force
+- ./vendor/bin/doctrine orm:schema-tool:update --dump-sql
 - ./vendor/bin/doctrine orm:validate-schema
 
